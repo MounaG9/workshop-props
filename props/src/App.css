@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  background-color: rgba(0, 153, 255, 0.552);
+}
+
+
+
+
+
+.App-header {
+  background-color: #675b5b1b;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #7c1f0f;
+}
+button{
+background-color: rgb(18, 103, 35);
+width: 200px;
+height: 50px;
+border-radius: 50px;
+display: flex;
+justify-content: center;
+
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
